@@ -1,0 +1,169 @@
+.wb-finance-cube {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    overflow: hidden !important;
+    }
+    .pre-banner {
+    width: 1100px;
+    height: 90px;
+    position: relative;
+    margin: auto;
+    overflow: hidden !important;
+    }
+    .top-banner {
+    width: 1100px;
+    height: 70px;
+    position: relative;
+    margin: auto;
+    overflow: hidden !important;
+    }
+    .masthead-left-right {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    overflow: hidden !important;
+    }
+    .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    }
+    .masthead-left-right >.swiper-wrapper > a > img {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    }
+    /* .foot {
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        bottom: -104px;
+        padding: 20px 0;
+        box-shadow: 0 -2px 0 0 rgba(255, 255, 255, .2);
+        font-size: 36px;
+        transition: all 0.2s;
+        background: #4d4dff;
+    } */
+    /* .foot .footclose {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        font-size: 24px;
+        font-weight: light;
+        text-decoration: none;
+        color: aquamarine;
+        transition: all 0.3s;
+        width: 1100px;
+        height: 70px;
+        margin-right: 790px;
+        margin-top: -60px;
+    } */
+    /* .foot .footclose:hover {
+        color: white;
+    } */
+    /* .foot .footclose:active {
+        color: #f9f;
+    } */
+    #popup_footer {
+        width: 1100px;
+        height: 70px;
+        text-align:center;
+        position: fixed;
+        padding: 30px;
+        box-shadow: 3px 3px 20px 0px #888888;
+    }
+    .f-close {
+        position: absolute;
+        left: 100%;
+        top: -18px;
+        cursor: pointer;
+    }
+    .popup {
+        bottom: 0px;
+    }
+    .gone {
+        /* background-image: url('images/down.png'); */
+        transition: all 300;
+        opacity: 0;
+        
+    }
+    /* .fa-fast-forward:before{ 
+        content:"\f051";
+    } */
+    .popup_content {
+        margin: 10px;
+        padding: 0 10px;
+        max-width: 60%;
+        /* border: 2px solid #444;
+        background: white; */
+        }
+        .material-close {
+            width: 16px;
+            position: absolute;
+            height: 16px;
+            left: 750px;
+            margin-top: 2px;
+            cursor: pointer;
+            color: rgb(11 210 232);
+            background: #ffffff;
+  
+        }
+        .midstory-close {
+            width: 16px;
+            position: absolute;
+            height: 16px;
+            left: 724px;
+            margin-top: 2px;
+            cursor: pointer;
+            color: rgb(11 210 232);
+            background: #ffffff;
+  
+        }
+        .material-icons {
+            font-size: 17px !important;
+        }
+        .b-close {
+            position: absolute;
+            left: 104%;
+            top: 0;
+            cursor: pointer;
+        }
+        #popup_this {
+            width: 700px;
+            height: 400;
+            top: 50%;
+            left: 50%;
+            text-align:center;
+            margin-top: -50px;
+            margin-left: -100px;
+            position: fixed;
+            padding: 30px;
+        }
+        /* .dropdown:hover>.dropdown-menu {
+            display: block;
+          } */
+          
+          .dropdown>.dropdown-toggle:active {
+            /*Without this, clicking will make it sticky*/
+          /* pointer-events: none; */
+          }
+          /* .dropdown-menu {
+            font-size: 14px;
+            background-color: #f7f7f7;
+            border:none;
+            border-radius:none; 
+            top: 100%;
+          } */
+          hr{
+            margin-top:0px;
+            margin-bottom:0px;
+          }
+          .nav-item:hover {
+            border-top: #030000 solid 2px;
+          }
+          /* .dropdown {
+            font-size:13px;
+          } */
